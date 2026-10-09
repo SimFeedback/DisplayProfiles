@@ -1,0 +1,15 @@
+# Build output
+bin/
+obj/
+build/
+Releases/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+
+# Machine-specific notes and data (hardware serials, local paths) – never published
+_private/
+profiles/
+*.local.json

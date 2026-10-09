@@ -1,0 +1,8 @@
+<Project>
+  <!-- Single version source for all projects and the installer: the VERSION file in the repository root. -->
+  <PropertyGroup>
+    <Version>$([System.IO.File]::ReadAllText('$(MSBuildThisFileDirectory)VERSION').Trim())</Version>
+    <Company>Rausch IT</Company>
+    <Product>DisplayProfiles</Product>
+  </PropertyGroup>
+</Project>
